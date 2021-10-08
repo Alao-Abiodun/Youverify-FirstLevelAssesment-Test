@@ -1,0 +1,26 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-app": "nodemon app.js",
+    "start-index": "nodemon index.js",
+    "start-task1": "nodemon Task1-isUnique.js",
+    "start-task2": "nodemon Task2-checkPermutation.js",
+    "start-task3": "nodemon Task3-URLify.js",
+    "start-task4": "nodemon Task4-palindromePermutation.js",
+    "start-task5": "nodemon Task5-OneWay.js",
+    "start-task6": "nodemon Task6-stringCompression.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "axios": "^0.22.0"
+  }
+}
