@@ -10,9 +10,7 @@ const stringCompression = (str) => {
   }
 
   let result = "";
-  let mapKeys = charMap.keys();
-  let mapValues = charMap.values();
-  charMap.forEach((value, index, arr) => {
+  charMap.forEach((value, index) => {
     result += index + value;
   });
   return result;
